@@ -1,0 +1,106 @@
+name: Update playlist
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_playlist.py"
+      - "scripts/update_epg.py"
+      - "tests/**"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download source playlists
+        run: |
+          curl -fsSL \
+            https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u \
+            -o mobile-origin.m3u
+          curl -fsSL \
+            https://raw.githubusercontent.com/mytv-android/myTVlogo/main/logo_list.txt \
+            -o logo-list.txt
+          curl -fsSL --retry 3 \
+            https://epg.pw/xmltv/epg_CN.xml.gz \
+            -o epg-primary.xml.gz
+          curl -fsSL --retry 3 \
+            https://epg.zsdc.eu.org/t.xml.gz \
+            -o epg-fallback.xml.gz
+
+      - name: Build EPG and playlist
+        run: |
+          python scripts/update_epg.py \
+            --playlist mobile-origin.m3u \
+            --source epg-primary.xml.gz \
+            --source epg-fallback.xml.gz \
+            --output bj-mobile-epg.xml.gz \
+            --mapping-output epg-map.json
+          python scripts/update_playlist.py \
+            --input mobile-origin.m3u \
+            --logo-list logo-list.txt \
+            --epg-map epg-map.json \
+            --output bj-mobile-iptv.m3u \
+            --epg-url "https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/bj-mobile-epg.xml.gz"
+          rm mobile-origin.m3u logo-list.txt epg-primary.xml.gz \
+            epg-fallback.xml.gz epg-map.json
+
+      - name: Test
+        run: python -m unittest discover -s tests -v
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- bj-mobile-iptv.m3u bj-mobile-epg.xml.gz; then
+            echo "Playlist and EPG are already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bj-mobile-iptv.m3u bj-mobile-epg.xml.gz
+          git commit -m "auto update"
+          git push
+
+      - name: Publish daily release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RELEASE_DATE=$(TZ=Asia/Shanghai date +%F)
+          TAG="daily-${RELEASE_DATE}"
+          TITLE="北京移动 IPTV ${RELEASE_DATE}"
+          NOTES="北京时间 ${RELEASE_DATE} 自动更新。
+
+          - bj-mobile-iptv.m3u：北京移动 IPTV 组播列表
+          - bj-mobile-epg.xml.gz：配套 XMLTV 节目单"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" \
+              bj-mobile-iptv.m3u bj-mobile-epg.xml.gz \
+              --clobber
+            gh release edit "$TAG" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --latest
+          else
+            gh release create "$TAG" \
+              bj-mobile-iptv.m3u bj-mobile-epg.xml.gz \
+              --target "$(git rev-parse HEAD)" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --latest
+          fi
