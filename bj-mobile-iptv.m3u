@@ -69,7 +69,7 @@ rtp://228.1.1.183:8136
 # rtp://228.1.1.216:8002 8K
 #EXTINF:-1 tvg-id="bj-mobile-029" tvg-name="CCTV-16奥林匹克" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV16.png",CCTV-16 奥林匹克[高清]
 rtp://228.1.1.215:8002
-#EXTINF:-1 tvg-id="bj-mobile-030" tvg-name="CCTV-17 农业农村" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV17.png",CCTV-17 农业农村[高清]
+#EXTINF:-1 tvg-id="bj-mobile-030" tvg-name="CCTV-17农业农村" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV17.png",CCTV-17 农业农村[高清]
 rtp://228.1.1.181:8144
 #EXTINF:-1 tvg-id="bj-mobile-031" tvg-name="CCTV4K" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV4K.png",CCTV-4K 超高清[超清HDR]
 rtp://228.1.1.227:2000
@@ -195,7 +195,7 @@ rtp://228.1.1.244:8212
 rtp://228.1.1.246:8192
 #EXTINF:-1 tvg-id="bj-mobile-076" tvg-name="西藏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png",西藏卫视[高清]
 rtp://228.1.1.245:8188
-#EXTINF:-1 tvg-id="bj-mobile-077" tvg-name="旅游卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E6%97%85%E6%B8%B8%E5%8D%AB%E8%A7%86.png",海南卫视
+#EXTINF:-1 tvg-id="bj-mobile-077" tvg-name="海南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E6%97%85%E6%B8%B8%E5%8D%AB%E8%A7%86.png",海南卫视
 rtp://228.1.1.81:8304
 #EXTINF:-1 tvg-id="bj-mobile-078" tvg-name="云南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png",云南卫视
 rtp://228.1.1.44:8108
