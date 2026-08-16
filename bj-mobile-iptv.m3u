@@ -265,7 +265,7 @@ rtp://228.1.1.206:4220
 rtp://228.1.1.207:4220
 #EXTINF:-1 tvg-id="bj-mobile-108" tvg-name="CGTN阿语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD.png",CGTN 阿拉伯语[高清]
 rtp://228.1.1.208:4220
-#EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E4%BF%84%E8%AF%AD.png",CGTN 俄语[高清]
+#EXTINF:-1 tvg-id="bj-mobile-109" tvg-name="CGTN俄语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E4%BF%84%E8%AF%AD.png",CGTN 俄语[高清]
 rtp://228.1.1.209:4220
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%9D%9B%E5%BD%A9%E7%AB%9E%E6%8A%80.png",睛彩竞技[高清]
 rtp://228.1.1.223:8002
