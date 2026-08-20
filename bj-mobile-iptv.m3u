@@ -39,11 +39,11 @@ rtp://228.1.1.25:8092
 rtp://228.1.1.213:4220
 #EXTINF:-1 tvg-id="bj-mobile-016" tvg-name="CCTV4AME" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV4AME.png",CCTV-4 中文国际 美洲[高清]
 rtp://228.1.1.203:4220
-#EXTINF:-1 tvg-id="bj-mobile-017" tvg-name="CCTV-5体育" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5.png",CCTV-5 体育[高清]
+#EXTINF:-1 tvg-id="bj-mobile-017" tvg-name="CCTV-5 体育" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5.png",CCTV-5 体育[高清]
 rtp://228.1.1.192:8002
 #EXTINF:-1 tvg-id="bj-mobile-018" tvg-name="CCTV5+" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5%2B.png",CCTV-5+ 体育赛事[高清]
 rtp://228.1.1.23:8004
-#EXTINF:-1 tvg-id="bj-mobile-019" tvg-name="CCTV-6电影" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV6.png",CCTV-6 电影[高清]
+#EXTINF:-1 tvg-id="bj-mobile-019" tvg-name="CCTV-6 电影" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV6.png",CCTV-6 电影[高清]
 rtp://228.1.1.193:8002
 #EXTINF:-1 tvg-id="bj-mobile-020" tvg-name="CCTV-7国防军事" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV7.png",CCTV-7 国防军事[高清]
 rtp://228.1.1.26:8104
@@ -99,7 +99,7 @@ rtp://228.1.1.165:4120
 rtp://228.1.1.172:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png",家庭影院[高清]
 rtp://228.1.1.174:4120
-#EXTINF:-1 tvg-id="bj-mobile-043" tvg-name="看天下精选专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%B2%BE%E9%80%89.png",精选[高清]
+#EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%B2%BE%E9%80%89.png",精选[高清]
 rtp://228.1.1.155:4120
 #EXTINF:-1 tvg-id="bj-mobile-044" tvg-name="经典电影专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1.png",经典电影[高清]
 rtp://228.1.1.89:9024
