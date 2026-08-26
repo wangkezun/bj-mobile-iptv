@@ -47,13 +47,13 @@ rtp://228.1.1.23:8004
 rtp://228.1.1.193:8002
 #EXTINF:-1 tvg-id="bj-mobile-020" tvg-name="CCTV-7国防军事" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV7.png",CCTV-7 国防军事[高清]
 rtp://228.1.1.26:8104
-#EXTINF:-1 tvg-id="bj-mobile-021" tvg-name="CCTV-8电视剧" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV8.png",CCTV-8 电视剧[高清]
+#EXTINF:-1 tvg-id="bj-mobile-021" tvg-name="CCTV-8 电视剧" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV8.png",CCTV-8 电视剧[高清]
 rtp://228.1.1.194:8002
-#EXTINF:-1 tvg-id="bj-mobile-022" tvg-name="CCTV-9纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV9.png",CCTV-9 纪录[高清]
+#EXTINF:-1 tvg-id="bj-mobile-022" tvg-name="CCTV-9 纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV9.png",CCTV-9 纪录[高清]
 rtp://228.1.1.27:8112
 #EXTINF:-1 tvg-id="bj-mobile-023" tvg-name="CCTV-10 科教" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV10.png",CCTV-10 科教[高清]
 rtp://228.1.1.29:8116
-#EXTINF:-1 tvg-id="bj-mobile-024" tvg-name="CCTV-11戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV11.png",CCTV-11 戏曲[高清]
+#EXTINF:-1 tvg-id="bj-mobile-024" tvg-name="CCTV-11 戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV11.png",CCTV-11 戏曲[高清]
 rtp://228.1.1.182:8120
 #EXTINF:-1 tvg-id="bj-mobile-025" tvg-name="CCTV-12 社会与法" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV12.png",CCTV-12 社会与法[高清]
 rtp://228.1.1.30:8124
