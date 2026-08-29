@@ -101,7 +101,7 @@ rtp://228.1.1.172:4120
 rtp://228.1.1.174:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%B2%BE%E9%80%89.png",精选[高清]
 rtp://228.1.1.155:4120
-#EXTINF:-1 tvg-name="IPTV经典电影" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1.png",经典电影[高清]
+#EXTINF:-1 tvg-id="bj-mobile-044" tvg-name="经典电影专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1.png",经典电影[高清]
 rtp://228.1.1.89:9024
 # #EXTINF:-1 tvg-name="上海纪实",纪实人文[高清]
 # rtp://228.1.1.20:8060
@@ -241,7 +241,7 @@ rtp://228.1.1.145:8002
 rtp://228.1.1.83:9000
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%8A%A8%E7%94%BB.png",动画[高清]
 rtp://228.1.1.161:4120
-#EXTINF:-1 tvg-name="IPTV热播剧场" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA.png",热播剧场[高清]
+#EXTINF:-1 tvg-id="bj-mobile-097" tvg-name="热播剧场专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA.png",热播剧场[高清]
 rtp://228.1.1.88:9020
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%86%9B%E6%97%85%E5%89%A7%E5%9C%BA.png",军旅剧场[高清]
 rtp://228.1.1.149:4120
@@ -251,7 +251,7 @@ rtp://228.1.1.150:4120
 rtp://228.1.1.148:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E6%AD%A6%E4%BE%A0%E5%89%A7%E5%9C%BA.png",武侠剧场[高清]
 rtp://228.1.1.171:4120
-#EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%AD%85%E5%8A%9B%E6%97%B6%E5%B0%9A.png",魅力时尚[高清]
+#EXTINF:-1 tvg-id="bj-mobile-102" tvg-name="魅力时尚专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%AD%85%E5%8A%9B%E6%97%B6%E5%B0%9A.png",魅力时尚[高清]
 rtp://228.1.1.86:9012
 #EXTINF:-1 tvg-name="该频道节目单尚无",高网[高清]
 rtp://228.1.1.169:4120
