@@ -29,7 +29,7 @@ rtp://228.1.1.111:8000
 # rtp://228.1.1.217:8002
 #EXTINF:-1 tvg-id="bj-mobile-011" tvg-name="CCTV-1 综合" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV1.png",CCTV-1 综合[高清]
 rtp://228.1.1.28:8008
-#EXTINF:-1 tvg-id="bj-mobile-012" tvg-name="CCTV-2 财经" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV2.png",CCTV-2 财经[高清]
+#EXTINF:-1 tvg-id="bj-mobile-012" tvg-name="CCTV-2财经" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV2.png",CCTV-2 财经[高清]
 rtp://228.1.1.24:8084
 #EXTINF:-1 tvg-id="bj-mobile-013" tvg-name="CCTV-3 综艺" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV3.png",CCTV-3 综艺[高清]
 rtp://228.1.1.191:8002
@@ -41,27 +41,27 @@ rtp://228.1.1.213:4220
 rtp://228.1.1.203:4220
 #EXTINF:-1 tvg-id="bj-mobile-017" tvg-name="CCTV-5 体育" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5.png",CCTV-5 体育[高清]
 rtp://228.1.1.192:8002
-#EXTINF:-1 tvg-id="bj-mobile-018" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5%2B.png",CCTV-5+ 体育赛事[高清]
+#EXTINF:-1 tvg-id="bj-mobile-018" tvg-name="CCTV5+" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV5%2B.png",CCTV-5+ 体育赛事[高清]
 rtp://228.1.1.23:8004
-#EXTINF:-1 tvg-id="bj-mobile-019" tvg-name="CCTV-6 电影" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV6.png",CCTV-6 电影[高清]
+#EXTINF:-1 tvg-id="bj-mobile-019" tvg-name="CCTV-6电影" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV6.png",CCTV-6 电影[高清]
 rtp://228.1.1.193:8002
-#EXTINF:-1 tvg-id="bj-mobile-020" tvg-name="CCTV-7 国防军事" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV7.png",CCTV-7 国防军事[高清]
+#EXTINF:-1 tvg-id="bj-mobile-020" tvg-name="CCTV-7国防军事" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV7.png",CCTV-7 国防军事[高清]
 rtp://228.1.1.26:8104
 #EXTINF:-1 tvg-id="bj-mobile-021" tvg-name="CCTV-8 电视剧" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV8.png",CCTV-8 电视剧[高清]
 rtp://228.1.1.194:8002
-#EXTINF:-1 tvg-id="bj-mobile-022" tvg-name="CCTV-9 纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV9.png",CCTV-9 纪录[高清]
+#EXTINF:-1 tvg-id="bj-mobile-022" tvg-name="CCTV-9纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV9.png",CCTV-9 纪录[高清]
 rtp://228.1.1.27:8112
-#EXTINF:-1 tvg-id="bj-mobile-023" tvg-name="CCTV-10 科教" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV10.png",CCTV-10 科教[高清]
+#EXTINF:-1 tvg-id="bj-mobile-023" tvg-name="CCTV-10科教" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV10.png",CCTV-10 科教[高清]
 rtp://228.1.1.29:8116
-#EXTINF:-1 tvg-id="bj-mobile-024" tvg-name="CCTV-11 戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV11.png",CCTV-11 戏曲[高清]
+#EXTINF:-1 tvg-id="bj-mobile-024" tvg-name="CCTV-11戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV11.png",CCTV-11 戏曲[高清]
 rtp://228.1.1.182:8120
 #EXTINF:-1 tvg-id="bj-mobile-025" tvg-name="CCTV-12 社会与法" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV12.png",CCTV-12 社会与法[高清]
 rtp://228.1.1.30:8124
-#EXTINF:-1 tvg-id="bj-mobile-026" tvg-name="CCTV-13 新闻" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV13.png",CCTV-13 新闻[高清]
+#EXTINF:-1 tvg-id="bj-mobile-026" tvg-name="CCTV-13新闻" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV13.png",CCTV-13 新闻[高清]
 rtp://228.1.1.212:8128
 #EXTINF:-1 tvg-id="bj-mobile-027" tvg-name="CCTV-14 少儿" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV14.png",CCTV-14 少儿[高清]
 rtp://228.1.1.31:8132
-#EXTINF:-1 tvg-id="bj-mobile-028" tvg-name="CCTV-15 音乐" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV15.png",CCTV-15 音乐[高清]
+#EXTINF:-1 tvg-id="bj-mobile-028" tvg-name="CCTV-15音乐" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CCTV15.png",CCTV-15 音乐[高清]
 rtp://228.1.1.183:8136
 # #EXTINF:-1 tvg-name="CCTV16",CCTV-16 奥林匹克[超清HDR]
 # rtp://228.1.1.218:8002
@@ -188,7 +188,7 @@ rtp://228.1.1.185:8148
 rtp://228.1.1.211:8164
 #EXTINF:-1 tvg-id="bj-mobile-073" tvg-name="甘肃卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png",甘肃卫视[高清]
 rtp://228.1.1.242:8180
-#EXTINF:-1 tvg-id="bj-mobile-074" tvg-name="海南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E6%97%85%E6%B8%B8%E5%8D%AB%E8%A7%86.png",海南卫视[高清]
+#EXTINF:-1 tvg-id="bj-mobile-074" tvg-name="旅游卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E6%97%85%E6%B8%B8%E5%8D%AB%E8%A7%86.png",海南卫视[高清]
 rtp://228.1.1.71:8228
 #EXTINF:-1 tvg-id="bj-mobile-075" tvg-name="兵团卫视" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png",兵团卫视[高清]
 rtp://228.1.1.243:8196
@@ -236,7 +236,7 @@ rtp://228.1.1.222:8002
 rtp://228.1.1.145:8002
 #EXTINF:-1 tvg-name="IPTV少儿动画" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E5%B0%91%E5%84%BF%E5%8A%A8%E7%94%BB.png",少儿动画[高清]
 rtp://228.1.1.83:9000
-#EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%8A%A8%E7%94%BB.png",动画[高清]
+#EXTINF:-1 tvg-id="bj-mobile-096" tvg-name="少儿动画专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%8A%A8%E7%94%BB.png",动画[高清]
 rtp://228.1.1.161:4120
 #EXTINF:-1 tvg-id="bj-mobile-097" tvg-name="热播剧场专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/IPTV%E7%83%AD%E6%92%AD%E5%89%A7%E5%9C%BA.png",热播剧场[高清]
 rtp://228.1.1.88:9020
@@ -260,7 +260,7 @@ rtp://228.1.1.205:4220
 rtp://228.1.1.206:4220
 #EXTINF:-1 tvg-id="bj-mobile-107" tvg-name="CGTN法语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E6%B3%95%E8%AF%AD.png",CGTN 法语[高清]
 rtp://228.1.1.207:4220
-#EXTINF:-1 tvg-id="bj-mobile-108" tvg-name="CGTN阿语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD.png",CGTN 阿拉伯语[高清]
+#EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD.png",CGTN 阿拉伯语[高清]
 rtp://228.1.1.208:4220
 #EXTINF:-1 tvg-id="bj-mobile-109" tvg-name="CGTN俄语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E4%BF%84%E8%AF%AD.png",CGTN 俄语[高清]
 rtp://228.1.1.209:4220
