@@ -43,6 +43,10 @@ jobs:
             https://epg.zsdc.eu.org/t.xml.gz \
             -o epg-fallback.xml.gz
 
+      - name: Fix epg.pw EPG timezone issue
+        run: |
+          gunzip -c epg-primary.xml.gz | sed 's/+0000/+0800/g' | gzip > epg-primary.new.gz && mv epg-primary.new.gz epg-primary.xml.gz
+
       - name: Build EPG and playlist
         run: |
           python scripts/update_epg.py \
