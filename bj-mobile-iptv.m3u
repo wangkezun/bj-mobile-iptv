@@ -246,19 +246,21 @@ rtp://228.1.1.148:4120
 rtp://228.1.1.171:4120
 #EXTINF:-1 tvg-id="bj-mobile-102" tvg-name="魅力时尚专区" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%AD%85%E5%8A%9B%E6%97%B6%E5%B0%9A.png",魅力时尚[高清]
 rtp://228.1.1.86:9012
-#EXTINF:-1 tvg-name="该频道节目单尚无",高网[高清]
+#EXTINF:-1 tvg-name="该频道节目单尚无",红色影院[高清]
 rtp://228.1.1.169:4120
-#EXTINF:-1 tvg-id="bj-mobile-104" tvg-name="CGTN英语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN.png",CGTN 新闻[高清]
+#EXTINF:-1 tvg-id="bj-mobile-104" tvg-name="经典剧场" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%BB%8F%E5%85%B8%E5%89%A7%E5%9C%BA.png",经典剧场[高清]
+rtp://228.1.1.166:4120
+#EXTINF:-1 tvg-id="bj-mobile-105" tvg-name="CGTN英语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN.png",CGTN 新闻[高清]
 rtp://228.1.1.204:4220
-#EXTINF:-1 tvg-id="bj-mobile-105" tvg-name="CGTN纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTNDOCUMENTARY.png",CGTN 记录[高清]
+#EXTINF:-1 tvg-id="bj-mobile-106" tvg-name="CGTN纪录" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTNDOCUMENTARY.png",CGTN 记录[高清]
 rtp://228.1.1.205:4220
-#EXTINF:-1 tvg-id="bj-mobile-106" tvg-name="CGTN西班牙语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD.png",CGTN 西班牙语[高清]
+#EXTINF:-1 tvg-id="bj-mobile-107" tvg-name="CGTN西班牙语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD.png",CGTN 西班牙语[高清]
 rtp://228.1.1.206:4220
-#EXTINF:-1 tvg-id="bj-mobile-107" tvg-name="CGTN法语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E6%B3%95%E8%AF%AD.png",CGTN 法语[高清]
+#EXTINF:-1 tvg-id="bj-mobile-108" tvg-name="CGTN法语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E6%B3%95%E8%AF%AD.png",CGTN 法语[高清]
 rtp://228.1.1.207:4220
-#EXTINF:-1 tvg-id="bj-mobile-108" tvg-name="CGTN阿语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD.png",CGTN 阿拉伯语[高清]
+#EXTINF:-1 tvg-id="bj-mobile-109" tvg-name="CGTN阿语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AF%AD.png",CGTN 阿拉伯语[高清]
 rtp://228.1.1.208:4220
-#EXTINF:-1 tvg-id="bj-mobile-109" tvg-name="CGTN俄语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E4%BF%84%E8%AF%AD.png",CGTN 俄语[高清]
+#EXTINF:-1 tvg-id="bj-mobile-110" tvg-name="CGTN俄语" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/CGTN%E4%BF%84%E8%AF%AD.png",CGTN 俄语[高清]
 rtp://228.1.1.209:4220
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E7%9D%9B%E5%BD%A9%E7%AB%9E%E6%8A%80.png",睛彩竞技[高清]
 rtp://228.1.1.223:8002
@@ -275,7 +277,7 @@ rtp://228.1.1.226:8002
 # #EXTINF:-1 tvg-name="该频道节目单尚无",体育赛事[高清]
 # #EXTINF:-1 tvg-name="该频道节目单尚无",淘精彩[高清]
 # rtp://228.1.1.202:8002
-#EXTINF:-1 tvg-id="bj-mobile-114" tvg-name="四海钓鱼" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93.png",四海钓鱼[高清]
+#EXTINF:-1 tvg-id="bj-mobile-115" tvg-name="四海钓鱼" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93.png",四海钓鱼[高清]
 rtp://228.1.1.144:8002
 # #EXTINF:-1 tvg-name="生活时尚",生活时尚[高清]
 # rtp://228.1.1.228:8002
@@ -287,7 +289,7 @@ rtp://228.1.1.144:8002
 rtp://228.1.1.156:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%86%9B%E4%BA%8B.png",军事[高清]
 rtp://228.1.1.157:4120
-#EXTINF:-1 tvg-id="bj-mobile-117" tvg-name="国学" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%9B%BD%E5%AD%A6.png",国学[高清]
+#EXTINF:-1 tvg-id="bj-mobile-118" tvg-name="国学" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%9B%BD%E5%AD%A6.png",国学[高清]
 rtp://228.1.1.158:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%A2%A8%E5%AE%9D.png",墨宝[高清]
 rtp://228.1.1.164:4120
@@ -311,19 +313,19 @@ rtp://228.1.1.170:4120
 rtp://228.1.1.163:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%9F%B3%E4%B9%90%E7%8E%B0%E5%9C%BA.png",音乐现场[高清]
 rtp://228.1.1.151:4120
-#EXTINF:-1 tvg-id="bj-mobile-129" tvg-name="CETV-1" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png",CETV1[高清]
+#EXTINF:-1 tvg-id="bj-mobile-130" tvg-name="CETV-1" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png",CETV1[高清]
 rtp://228.1.1.32:8152
-#EXTINF:-1 tvg-id="bj-mobile-130" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B22%E5%8F%B0.png",CETV2
+#EXTINF:-1 tvg-id="bj-mobile-131" tvg-name="CETV-2" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B22%E5%8F%B0.png",CETV2
 rtp://228.1.1.97:4120
 # #EXTINF:-1 tvg-name="中国教育3台",CETV3
 # rtp://228.1.1.98:4120
-#EXTINF:-1 tvg-id="bj-mobile-131" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B24%E5%8F%B0.png",CETV4
+#EXTINF:-1 tvg-id="bj-mobile-132" tvg-name="CETV-4" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B24%E5%8F%B0.png",CETV4
 rtp://228.1.1.99:4120
-#EXTINF:-1 tvg-id="bj-mobile-132" tvg-name="金鹰卡通" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png",金鹰卡通
+#EXTINF:-1 tvg-id="bj-mobile-133" tvg-name="金鹰卡通" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png",金鹰卡通
 rtp://228.1.1.92:9252
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A.png",嘉佳卡通
 rtp://228.1.1.93:9268
-#EXTINF:-1 tvg-id="bj-mobile-134" tvg-name="山东教育" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png",山东教育
+#EXTINF:-1 tvg-id="bj-mobile-135" tvg-name="山东教育" tvg-logo="https://cdn.jsdelivr.net/gh/mytv-android/myTVlogo@main/img/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2.png",山东教育
 rtp://228.1.1.96:4120
 # #EXTINF:-1 tvg-name="该频道节目单尚无",财富天下
 # rtp://228.1.1.90:9136
